@@ -4,12 +4,8 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
-
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
+Hey all, this is my corner of the internet. I write about cool stuff I find and do. I'll update this with new tips tricks and tweaks that I find so we can all get some together.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[se@nheath.com](mailto:se@nheath.com)
