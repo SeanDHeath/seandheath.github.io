@@ -8,4 +8,4 @@ I'm an Electrical and Computer Engineer, a Software Engineer, a Pentester, a Mar
 
 ### Contact me
 
-[se@nheath.com](mailto:se@nheath.com)
+[sean@luckyobserver.com](mailto:sean@luckyobserver.com)
