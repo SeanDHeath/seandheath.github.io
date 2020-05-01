@@ -190,7 +190,7 @@ img {
   }
 }
 
-.site-name {
+.site-title {
   margin: 0;
   color: $darkGray;
   cursor: pointer;
@@ -281,6 +281,10 @@ nav {
 footer {
   padding: 20px 0;
   text-align: center;
+}
+
+code {
+  background-color: #efefef
 }
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
