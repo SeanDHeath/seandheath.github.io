@@ -6,7 +6,9 @@ title: Setting up Windows VM Target for Cyber Lab with Boot Script
 I was working on getting a generic Windows 10 VM set up for cyber testing in my lab and I didn't want to have to keep bothering with re-downloading and re-configuring all the time. This walkthrough shows you how to download the Windows developer VM, switch it over to a qcow2 image, and inject a boot script so it can always boot up to the same configuration each time. Note that you should keep a pristine image (unactivated) or snapshot it so you can reset the 90 day restriction when you need to.
 
 Get base image file from here: [https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/) 
+
 Download the `VirtualBox` version.
+
 Password: `Passw0rd!`
 
 - Install dependencies:
