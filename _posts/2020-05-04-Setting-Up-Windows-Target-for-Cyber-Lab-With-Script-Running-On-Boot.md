@@ -29,6 +29,7 @@ qemu-img convert -O qcow2 <edge-vm>.vmdk <edge-vm>.qcow2
 
 ```
 git clone https://github.com/rwmjones/rhsrvany /tmp/rhsrvany
+cd /tmp/rhsrvany
 autoreconf --install
 autoconf
 mingw32-configure
