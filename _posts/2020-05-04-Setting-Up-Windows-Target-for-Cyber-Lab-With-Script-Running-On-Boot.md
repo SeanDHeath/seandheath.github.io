@@ -42,7 +42,7 @@ sudo cp /tmp/rhsrvany/pnp_wait/pnp_wait.exe /usr/share/virt-tools/
 Now we can make our boot script:
 
 ```
-echo "echo Runs Once On Boot" > boot.bat
+echo "whoami" > boot.bat
 ```
 
 And insert the boot script into the Windows image:
@@ -53,4 +53,4 @@ virt-customize -a <edge-vm>.qcow2 --firstboot boot.bat
 
 Boot the VM and check the file in `C:\Program Files\Guestfs\Firstboot\log.txt`
 
-![a07cd9789aa6e30bf6e80c796ff38a0c.png](../images/a07cd9789aa6e30bf6e80c796ff38a0c.png)
+![fa3dec25389fc5189c01bf4f8dc7ddf3.png](../images/fa3dec25389fc5189c01bf4f8dc7ddf3.png)
