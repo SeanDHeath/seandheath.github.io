@@ -19,18 +19,16 @@ SUBSYSTEM=="power_supply", KERNEL=="AC", ATTR{online}=="1", RUN+="/usr/bin/syste
 
 Make systemd targets for ac/battery:
 
+`/etc/systemd/system/ac.target`
 ```
-/etc/systemd/system/ac.target
-
 [Unit]
 Description=On AC Power
 DefaultDependencies=no
 StopWhenUnneeded=yes
 ```
 
+`/etc/systemd/system/battery.target`
 ```
-/etc/systemd/system/battery.target
-
 [Unit]
 Description=On battery power
 DefaultDependencies=no
@@ -39,9 +37,8 @@ StopWhenUnneeded=yes
 
 Make services for ac/battery:
 
+`/etc/systemd/system/ac-governor.service`
 ```
-/etc/systemd/system/ac-governor.service
-
 [Unit]
 Description=Sets governor on ac power
 
@@ -53,9 +50,8 @@ ExecStart=cpupower frequency-set --governor performance
 WantedBy=ac.target
 ```
 
+`/etc/systemd/system/battery-governor.service`
 ```
-/etc/systemd/system/battery-governor.service
-
 [Unit]
 Description=Sets governor on battery power
 
