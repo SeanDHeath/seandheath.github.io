@@ -3,7 +3,7 @@ layout: post
 title: Fixing missing driver in Windows 10 virt-manager guest
 ---
 
-When using Windows with virt-manager, libvirt, qemu, or any kvm based hypervisor I always install the spice vdagent. This installs most of the required drivers for the attached devices but I always have one device left after installing [spice guest tools](https://www.spice-space.org/download/windows/spice-guest-tools/spice-guest-tools-latest.exe) and it's a generic ACPI device.
+When using Windows with virt-manager, libvirt, qemu, or any kvm based hypervisor I always install the spice vdagent. This installs most of the required drivers for the attached devices but I always have one device left after installing [spice guest tools](https://www.spice-space.org/download/windows/spice-guest-tools/) and it's a generic ACPI device.
 
 Device Instance path:
 ```
