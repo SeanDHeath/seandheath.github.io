@@ -20,7 +20,19 @@ ACPI\APP0005
 To fix this, go to
 
 ```
-Start > Device Manager > Right click device > Update Drivers > Browse my computer for driver software > Let me pick from a list of available drivers on my computer > System devices > Next > (Standard system devices) > ACPI Processor Container Device > Next > Yes > Close
+Start >
+Device Manager >
+Right click device >
+Update Drivers >
+Browse my computer for driver software >
+Let me pick from a list of available drivers on my computer >
+System devices >
+Next >
+(Standard system devices) >
+ACPI Processor Container Device >
+Next >
+Yes >
+Close
 ``` 
 
 Thanks to [AntaresUK](https://forums.unraid.net/profile/85579-antaresuk/) for posting the [solution](https://forums.unraid.net/topic/87453-solved-win-10-unknown-device-error-acpiven_appdev0005/).
